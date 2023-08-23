@@ -108,8 +108,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🍁ɢʀᴏᴜᴩ🍁", url="https://t.me/+5zdnXfOqEEwxNjQ1"),
-            InlineKeyboardButton("⚡ᴄʜᴀɴɴᴇʟ⚡", url="https://t.me/qtmve_linkzzZ")
+            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/SAM_DUB_LEEZZA"),
+            InlineKeyboardButton("🍃 ＭＡＩＮ ＨＵＢ 🗽", url="https://t.me/SAM_DUB_LEZHa")
         ]
     )
 
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/Qtmve_link/3"),]
+    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/SAM_DUB_LEZHa"),]
 )
     if n_offset == 0:
         btn.append(
@@ -442,13 +442,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⚡', url='https://t.me/qtmve_linkzzZ'),
-            InlineKeyboardButton('⚡ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⚡', url='https://t.me/+5zdnXfOqEEwxNjQ1')
+            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
         ], [
-            InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
-            InlineKeyboardButton('📬 ᴀʙᴏᴜᴛ ᴍᴇ 📬', callback_data='about')
+            InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
+            InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
         ], [
-            InlineKeyboardButton('🌈 ᴄʀᴇᴀᴛᴏʀ 🌈', url='https://t.me/Owner_of_qtmve')
+            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -475,11 +475,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🔥ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/qtmve_linkzzZ'),
-            InlineKeyboardButton('🥴ꜱᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('👑𝕊𝕆𝕌ℝℂ𝔼🥀', callback_data='source')
         ],[
-            InlineKeyboardButton('🎋ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('❤‍🔥ᴄʟᴏꜱᴇ', callback_data='close_data') 
+            InlineKeyboardButton('🍁ℍ𝕆𝕄𝔼🌿', callback_data='start'),
+            InlineKeyboardButton('🍀ℂ𝕃𝕆𝕊𝔼🍀', callback_data='close_data') 
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -489,7 +489,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('😒𝔹𝔸ℂ𝕂', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -499,8 +499,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "manuelfilter":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('⏹️ ʙᴜᴛᴛᴏɴꜱ', callback_data='button')
+            InlineKeyboardButton('👩‍🦯 𝔹𝔸ℂ𝕂', callback_data='help'),
+            InlineKeyboardButton('⏹️ 𝔹𝕌𝕋𝕋𝕆ℕ𝕊', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -510,7 +510,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='manuelfilter')
+            InlineKeyboardButton('👩‍🦯 𝔹𝔸ℂ𝕂', callback_data='manuelfilter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -520,7 +520,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autofilter":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('👩‍🦯 𝔹𝔸ℂ𝕂', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -530,7 +530,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('👩‍🦯 𝔹𝔸ℂ𝕂', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -540,8 +540,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('👮‍♂️ ᴀᴅᴍɪɴ', callback_data='admin')
+            InlineKeyboardButton('👩‍🦯 𝔹𝔸ℂ𝕂', callback_data='help'),
+            InlineKeyboardButton('👮‍♂️ 𝔸𝕌𝕋ℍ𝕆ℝ', callback_data='admin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -701,13 +701,13 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🍁ɢʀᴏᴜᴩ🍁", url="https://t.me/+5zdnXfOqEEwxNjQ1"),
-            InlineKeyboardButton("⚡ᴄʜᴀɴɴᴇʟ⚡", url="https://t.me/qtmve_linkzzZ")
+            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/SAM_DUB_LEEZZA"),
+            InlineKeyboardButton("⚡🍃 ＭＡＩＮ ＨＵＢ 🗽", url="https://t.me/SAM_DUB_LEZHa")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/Qtmve_link/3"),]
+    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/SAM_DUB_LEZHa"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
@@ -756,7 +756,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n😌 ɪꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ 😌 \n\nᴇxᴀᴍᴘʟᴇ : \n\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ (ʏᴇᴀʀ) ᴛᴀɢ @admin"
+        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n😌 ɪꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ 😌 \n\nᴇxᴀᴍᴘʟᴇ : \n\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ (ʏᴇᴀʀ) ᴛᴀɢ @ADMIN"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
