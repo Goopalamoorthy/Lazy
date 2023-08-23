@@ -11,32 +11,32 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/qtmve_linkzZ')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
     
-ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/qtmvefilrer_bot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
+ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Binthu_x_robot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ <a href=https://t.me/Owner_of_qtmve><b>𝗠𝗔𝗗𝗛𝗔𝗡 𝗢𝗣</b></a></b>''')
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ <a href=https://t.me/SMD_Owner><b>𝗠𝗔𝗗𝗛𝗔𝗡 𝗢𝗣</b></a></b>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>
 ╭────[ About Meh ]────⍟
 │
-├⍟ Meh Name : <a href=http://t.me/qtmvefilrer_bot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
-├⍟ Owner : <a href=https://t.me/Owner_of_qtmve><b>ᴠᴀɪʀᴀᴍᴜᴛʜᴜ</b></a>
-├⍟ Version : 𝗤𝗧𝗩𝗦𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 [ Stable ]
-├⍟ Server : <a href=https://t.me/Owner_of_qtmve><b>𝗩𝗔𝗜𝗥𝗔𝗠</b></a>
+├⍟ Meh Name : <a href=http://t.me/Binthu_x_robot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
+├⍟ Owner : <a href=https://t.me/SMD_Owner><b>𝗥𝗮𝘁𝗵𝗶𝗻𝗮𝘃𝗲𝗹</b></a>
+├⍟ Version : Dubai Kaaran
+├⍟ Server : <a href=https://t.me/SMD_Owner><b>𝗣𝗼𝗿𝘂𝗸𝗶</b></a>
 ├⍟ Language : ᴘʏᴛʜᴏɴ 3
 ├⍟ Framework : ᴘʏʀᴏɢʀᴀᴍ
-├⍟ Developer : <a href=https://t.me/Owner_of_qtmve><b>𝗠𝗨𝗧𝗛𝗨</b></a>
-├⍟ Powered By  : <a href=https://t.me/Owner_of_qtmve><b>ᴍᴀᴅᴀɴ ᴏᴘ</b></a>
+├⍟ Developer : <a href=https://t.me/SMD_Owner><b>𝗠𝗮𝗻𝗶𝗺𝗮𝗮𝗿𝗮𝗻</b></a>
+├⍟ Powered By  : <a href=https://t.me/SMD_Owner><b>𝗣𝗮𝗻𝗱𝗶𝘆𝗮𝗻</b></a>
 │
 ╰─────────────────────⍟<b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
 » ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴏᴛ ꜰᴏʀ ʏᴏᴜ
-» ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ @Owner_of_qtmve</b>"""
+» ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ @SMD_Owner</b>"""
     MANUELFILTER_TXT = """ʜᴇʟᴩ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 
 • ꜰɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
