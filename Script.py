@@ -24,7 +24,7 @@ class script(object):
     ABOUT_TXT = """<b>
 ╭────[ About Meh ]────⍟
 │
-├⍟ Meh Name : <a href=http://t.me/Binthu_x_robot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
+├⍟ Meh Name : <a href=http://t.me/Binthu_x_robot><b>𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜</b></a>
 ├⍟ Owner : <a href=https://t.me/SMD_Owner><b>𝗥𝗮𝘁𝗵𝗶𝗻𝗮𝘃𝗲𝗹</b></a>
 ├⍟ Version : Dubai Kaaran
 ├⍟ Server : <a href=https://t.me/SMD_Owner><b>𝗣𝗼𝗿𝘂𝗸𝗶</b></a>
@@ -61,7 +61,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Owner_of_qtmve)</code>
+<code>[Button Text](buttonurl:https://t.me/SMD_Owner)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -88,7 +88,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of @qtmvefilrer_bot
+these are the extra features of @Binthu_x_robot
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -112,21 +112,21 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """⚡★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-⚡★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-⚡★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-⚡★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-⚡★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """🗽★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+❤‍🔥★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
+❤‍🔥★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
+❤‍🔥★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
+❤‍🔥★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
 <b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
 <b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
-<b>᚛› 𝐌𝐚𝐝𝐚𝐧 𝐎𝐏 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭 </b>
+<b>᚛› @SAM_DUB_LEZHa </b>
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫-new 
     
 <b>᚛› 𝐈𝐃⚡ - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞⚡ - {}</b>
-<b>᚛› 𝐌𝐚𝐝𝐚𝐧 𝐎𝐏 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭 </b>
+<b>᚛› 𝗥𝗔𝗝𝗔 𝗥𝗔𝗝𝗔 𝗣𝗢𝗥𝗨𝗞𝗜 </b>
 """
