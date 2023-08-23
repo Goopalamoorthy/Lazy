@@ -11,59 +11,57 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://clicksfly.com/ref/LazyDeveloperr')
-    START_TXT = environ.get("START_TXT", '''Hello {},
-Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪''')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/qtmve_linkzZ')
+    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
     
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    LZTHMB_TEXT = """Hello {},
-Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
-    """
-    LZLINK_TEXT = """Hey {},
-Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
-    """
-    DNT_TEXT = """Hey sweetie {},
-Thanks for thinking about us.\nIt seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>For your kind information, we do not ask or force anyone for any kind of payment</b>. But if you really want to donate us then you can send money to us from below links...\n\n💵 Reach Donation Page : <a href=http://t.me/DonateLazyDeveloper>Click here...</a>\n\nT❤️ hank you so much..
-    """
-    REQ_AUTH_TEXT = """Hello {},
-\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/LazyDeveloperSupport>LazyDeveloper Support</a>\n\n
-    """
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/LazyDeveloper>LazyDeveloper</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: KOYEB
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.0.1 [ LazyPrincess ]"""
-    SOURCE_TXT = """<b>LazyPrincess is an open source project</b>
+ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/qtmvefilrer_bot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
 
-You can easily get its source code from github - <a href='https://github.com/LazyDeveloperr/LazyPrincessV2'>LazyDeveloperr</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
 
-- Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ <a href=https://t.me/Owner_of_qtmve><b>𝗠𝗔𝗗𝗛𝗔𝗡 𝗢𝗣</b></a></b>''')
+    HELP_TXT = """ʜᴇʏ {}
+ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
+    ABOUT_TXT = """<b>
+╭────[ About Meh ]────⍟
+│
+├⍟ Meh Name : <a href=http://t.me/qtmvefilrer_bot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
+├⍟ Owner : <a href=https://t.me/Owner_of_qtmve><b>ᴠᴀɪʀᴀᴍᴜᴛʜᴜ</b></a>
+├⍟ Version : 𝗤𝗧𝗩𝗦𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 [ Stable ]
+├⍟ Server : <a href=https://t.me/Owner_of_qtmve><b>𝗩𝗔𝗜𝗥𝗔𝗠</b></a>
+├⍟ Language : ᴘʏᴛʜᴏɴ 3
+├⍟ Framework : ᴘʏʀᴏɢʀᴀᴍ
+├⍟ Developer : <a href=https://t.me/Owner_of_qtmve><b>𝗠𝗨𝗧𝗛𝗨</b></a>
+├⍟ Powered By  : <a href=https://t.me/Owner_of_qtmve><b>ᴍᴀᴅᴀɴ ᴏᴘ</b></a>
+│
+╰─────────────────────⍟<b>"""
+    SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
+» ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴏᴛ ꜰᴏʀ ʏᴏᴜ
+» ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ @Owner_of_qtmve</b>"""
+    MANUELFILTER_TXT = """ʜᴇʟᴩ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 
-<b>NOTE:</b>
-1. Search Bot should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+• ꜰɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
 
-<b>Commands and Usage:</b>
+<b>ɴᴏᴛᴇ:</b>
+1. ꜰʟɪᴍꜱ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+2. ᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ.
+3. ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ ʜᴀᴠᴇ ᴀ ʟɪᴍɪᴛ ᴏꜰ 64 ᴄʜᴀʀᴀᴄᴛᴇʀꜱ.
+
+<b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Search Bot Supports both url and alert inline buttons.
+- MS Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Search Bot supports buttons with any telegram media type.
+2. Hb_LinkZzz supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/LazyDeveloper)</code>
+<code>[Button Text](buttonurl:https://t.me/Owner_of_qtmve)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -90,7 +88,7 @@ You can easily get its source code from github - <a href='https://github.com/Laz
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Search Bot
+these are the extra features of @qtmvefilrer_bot
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -114,25 +112,21 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
-    LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+    STATUS_TXT = """⚡★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+⚡★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
+⚡★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
+⚡★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
+⚡★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+    
+<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
+<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
+<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
+<b>᚛› 𝐌𝐚𝐝𝐚𝐧 𝐎𝐏 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭 </b>
 """
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+    LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫-new 
+    
+<b>᚛› 𝐈𝐃⚡ - <code>{}</code></b>
+<b>᚛› 𝐍𝐚𝐦𝐞⚡ - {}</b>
+<b>᚛› 𝐌𝐚𝐝𝐚𝐧 𝐎𝐏 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭 </b>
 """
-    PROGRESS_BAR = """\n
-╭━━━━❰ PROGRESS BAR ❱━➣
-┣⪼ 🗂️ : {1} | {2}
-┣⪼ ⏳️ : {0}%
-┣⪼ 🚀 : {3}/s
-┣⪼ ⏱️ : {4}
-╰━━━━━━━━━━━━━━━➣ """
-
